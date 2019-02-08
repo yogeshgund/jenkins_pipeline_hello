@@ -4,6 +4,11 @@ node {
     }
 }
 node {
+    stage('verify'){
+        echo "verify"
+    }
+}
+node {
     stage('test'){
         echo "testing"
     }
