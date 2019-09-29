@@ -16,7 +16,7 @@ node {
         echo "deploying"
     }
 node {
-    stage('deploy to prod){
+    stage('deploy to prod'){
           echo "deploying"
      }
  }
